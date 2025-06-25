@@ -1,9 +1,66 @@
+/* Reset and Basic Setup */
 body {
-    background-color: #f0f8ff; /* A nice, light aliceblue color */
-    font-family: sans-serif;
+    background-color: #f4f4f9; /* A softer, warmer off-white */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+/* Header and Navigation Styles */
+.main-header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 2rem;
+}
+
+.main-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+}
+
+.nav-logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #5d3a9b; /* A nice deep purple */
+    text-decoration: none;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-left: 2rem;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Main Content Area */
+.content-area {
     text-align: center;
+    padding: 5rem 2rem;
+}
+
+.content-area h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #5d3a9b;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    font-weight: bold;
 }

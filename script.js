@@ -1,1 +1,1 @@
-alert("Welcome to Simply Classic Travels! Our website is coming soon.");
+console.log("Welcome to Simply Classic Travels! The site is now live.");
