@@ -1,0 +1,1 @@
+alert("Welcome to Simply Classic Travels! Our website is coming soon.");
